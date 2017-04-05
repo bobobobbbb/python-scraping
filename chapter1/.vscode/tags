@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+1-basicExample.py	../1-basicExample.py	1;"	kind:file	line:1
+2-beautifulSoup.py	../2-beautifulSoup.py	1;"	kind:file	line:1
+3-exceptionHandling.py	../3-exceptionHandling.py	1;"	kind:file	line:1
+BeautifulSoup	../2-beautifulSoup.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+BeautifulSoup	../3-exceptionHandling.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:3
+BeautifulSoup	../experiment.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+BeautifulSoup	../experiment2.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+BeautifulSoup	../experiment3.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:2
+BeautifulSoup	../scrapetest.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:3
+HTTPError	../3-exceptionHandling.py	/^from urllib.error import HTTPError$/;"	kind:namespace	line:2
+HTTPError	../scrapetest.py	/^from urllib.error import HTTPError$/;"	kind:namespace	line:4
+badContent	../test.py	/^    badContent = bsObj.nonExisitingTag.anotherTag$/;"	kind:variable	line:2
+bsObj	../2-beautifulSoup.py	/^bsObj = BeautifulSoup(html.read())$/;"	kind:variable	line:5
+bsObj	../experiment.py	/^bsObj = BeautifulSoup(html, "html.parser")$/;"	kind:variable	line:4
+bsObj	../experiment2.py	/^bsObj = BeautifulSoup(html)$/;"	kind:variable	line:5
+bsObj	../experiment3.py	/^bsObj = BeautifulSoup(html, "html.parser")$/;"	kind:variable	line:6
+experiment.py	../experiment.py	1;"	kind:file	line:1
+experiment2.py	../experiment2.py	1;"	kind:file	line:1
+experiment3.py	../experiment3.py	1;"	kind:file	line:1
+getTitle	../3-exceptionHandling.py	/^def getTitle(url):$/;"	kind:function	line:7
+getTitle	../scrapetest.py	/^def getTitle(url):$/;"	kind:function	line:5
+href	../experiment3.py	/^                        href=re.compile("^(\/wiki)((?!:).)*$")):$/;"	kind:variable	line:9
+html	../1-basicExample.py	/^html = urlopen("http:\/\/www.pythonscraping.com\/exercises\/exercise1.html")$/;"	kind:variable	line:3
+html	../2-beautifulSoup.py	/^html = urlopen("http:\/\/www.pythonscraping.com\/exercises\/exercise1.html")$/;"	kind:variable	line:4
+html	../experiment.py	/^html = urlopen("http:\/\/www.pythonscraping.com\/pages\/warandpeace.html")$/;"	kind:variable	line:3
+html	../experiment2.py	/^html = urlopen("http:\/\/www.pythonscraping.com\/pages\/page3.html")$/;"	kind:variable	line:4
+html	../experiment3.py	/^html = urlopen("https:\/\/en.wikipedia.org\/wiki\/Kevin_Bacon")$/;"	kind:variable	line:5
+nameList	../experiment.py	/^nameList = bsObj.findAll("span", {"class":"green"})$/;"	kind:variable	line:5
+nameList2	../experiment.py	/^nameList2 = bsObj.findAll(text="the prince")$/;"	kind:variable	line:8
+nameList3	../experiment.py	/^nameList3 = bsObj.findAll("", {"class":"green"})$/;"	kind:variable	line:9
+nameList4	../experiment.py	/^nameList4 = bsObj.findAll("", )$/;"	kind:variable	line:10
+re	../experiment3.py	/^import re$/;"	kind:namespace	line:3
+scrapetest.py	../scrapetest.py	1;"	kind:file	line:1
+sys	../3-exceptionHandling.py	/^import sys$/;"	kind:namespace	line:4
+test.py	../test.py	1;"	kind:file	line:1
+title	../3-exceptionHandling.py	/^title = getTitle("http:\/\/www.pythonscraping.com\/exercises\/exercise1.html")$/;"	kind:variable	line:20
+title	../scrapetest.py	/^title = getTitle(url)$/;"	kind:variable	line:19
+url	../scrapetest.py	/^url = input()$/;"	kind:variable	line:18
+urlopen	../1-basicExample.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../2-beautifulSoup.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../3-exceptionHandling.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../experiment.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../experiment2.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../experiment3.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:1
+urlopen	../scrapetest.py	/^from urllib.request import urlopen$/;"	kind:namespace	line:2
